@@ -8,4 +8,6 @@ function displayName(name) {
 }
 
 displayName("tmp");
+
+displayName(tmp)
 // quel va etre le message affiché ?

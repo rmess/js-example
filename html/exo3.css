@@ -1,0 +1,17 @@
+#section1{
+    background-color: blue;
+}
+
+#section2{
+    background-color: white;
+}
+
+#section3{
+    background-color: red;
+}
+
+.flag-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

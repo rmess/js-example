@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container:hover > .item-1 {
+    background-color: green;
+  }
+
+  .item-1 {
+   background-color: blue;
+   height: 200px;
+   width: 200px;
+  } 
+  .item-2 {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+  } 
+  .item-3 {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+  }
+
+  @media only screen and (max-width: 390px){
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .item-1 {
+        background-color: black;
+    }
+
+  } 
+
